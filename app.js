@@ -5,7 +5,6 @@ const express = require('express')
 const handlers = require('./lib/handlers')
 
 var b = 0
-console.log(bla)
 
 const port = process.env.PORT || 3033
 const app = express()
