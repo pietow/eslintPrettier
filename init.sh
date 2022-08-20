@@ -11,6 +11,6 @@ else
     echo "Copying config to ${mainProject}"
     cp .eslintrc.json "${mainProject}/."
     cp .prettierrc "${mainProject}/."
-    cp package.json "${mainProject}/."
+    # cp package.json "${mainProject}/."
     echo "Copying done"
 fi

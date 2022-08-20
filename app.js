@@ -4,7 +4,7 @@ const express = require('express')
 
 const handlers = require('./lib/handlers')
 
-var b = 0
+const b = 0
 
 const port = process.env.PORT || 3033
 const app = express()
